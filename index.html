@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dorohedoro</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>DOROHEDORO</h1>
-        <nav id="top">
-            <a href="#">Home</a>
-            <a href="#">Characters</a>
+        <section id="top">
+            <h1>DOROHEDORO</h1>
+
+            <a href="#home">Home</a>
+            <a href="#characters">Characters</a>
             <a href="#">About</a>
-        </nav>
-        <hr>
+            <input type="text" placeholder="search">
+            <button type="submit">go</button>
+        </section>
     </header>
     <main>
         <section id="home">
             <h2>Home</h2>
             <p>Welcome to Dorohedoro fan-page!</p>
-            <img src="./DDD/dorohedoroPNG.webp" alt="img1" width="#" height="#">
-            <p>This is a fan-page about the manga named <strong>Dorohedoro</strong>, written by <strong>Q Hayashida</strong>.</p>
+            <img src="./DDD/dorohedoroPNG.webp" class="img1" width="280" height="200">
+            <p>This is a fan-page about the manga named <strong>Dorohedoro</strong>, written by <strong>Q
+                    Hayashida</strong>.</p>
         </section>
         <section id="characters">
             <h2>Characters</h2>
-            <figure>
-                <a href="#">
-                    <img src="./DDD/kaimanPNG.jpg" alt="kaimanIMG" width="100px" height="100px">
-                </a>
-                <figcaption>Kaiman</figcaption>
-            </figure>
-            <figure>
-                <a href="#">
-                    <img src="./DDD/nikaidoPNG.jpg" alt="" width="100px" height="100px">
-                </a>
-                <figcaption>Nikaido</figcaption>
-            </figure>
-            <figure>
-                <a href="#">
-                    <img src="./DDD/shinPNG.jpg" alt="" width="100px" height="100px">
-                </a>
-                <figcaption>Shin</figcaption>
-            </figure>
-            <figure>
-                <a href="#">
-                    <img src="./DDD/noiPNG.jpg" alt="" width="100px" height="100px">
-                </a>
-                <figcaption>Noi</figcaption>
-            </figure>
+            <div class="character-container">
+                <figure class="character-icon">
+                    <a href="#">
+                        <img src="./DDD/kaimanPNG.jpg" alt="kaimanIMG" width="100px" height="100px">
+                    </a>
+                    <figcaption>Kaiman</figcaption>
+                </figure>
+                <figure class="character-icon">
+                    <a href="#">
+                        <img src="./DDD/nikaidoPNG.jpg" alt="" width="100px" height="100px">
+                    </a>
+                    <figcaption>Nikaido</figcaption>
+                </figure>
+                <figure class="character-icon">
+                    <a href="#">
+                        <img src="./DDD/shinPNG.jpg" alt="" width="100px" height="100px">
+                    </a>
+                    <figcaption>Shin</figcaption>
+                </figure>
+                <figure class="character-icon">
+                    <a href="#">
+                        <img src="./DDD/noiPNG.jpg" alt="" width="100px" height="100px">
+                    </a>
+                    <figcaption>Noi</figcaption>
+                </figure>
+            </div>
 
         </section>
     </main>
@@ -56,4 +63,5 @@
         <p>&copy; 2024 DOROHEDORO FAN-PAGE</p>
     </footer>
 </body>
+
 </html>
