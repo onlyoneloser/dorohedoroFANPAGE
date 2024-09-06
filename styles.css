@@ -21,6 +21,7 @@ h1 {
     font-family: "Chakra Petch", sans-serif;
     font-weight: bold;
     background-color: black;
+    line-height: 1.6;
 }
 
 a {
@@ -56,24 +57,17 @@ body {
 }
 
 .character-container {
-    width: 100%;
-    height: 300px;
-    overflow-x: auto;
     align-items: center;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+
 }
 
 figcaption a {
     text-align: center; /*alinha os nomes para o centro da img*/
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
-}
-
-figcaption:hover {
-    color: chartreuse;
-    background-color: black;
 }
 
 figcaption {
@@ -84,4 +78,46 @@ figcaption {
 input {
     width: 30rem;
     border: none;
+}
+
+.about h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-inside {
+    border-radius: 17px;
+}
+
+.noi-icon:hover {
+    width: 200px;
+    height: auto;
+
+}
+
+.shin-icon:hover {
+    width: 200px;
+    height: auto;
+}
+
+.nikaido-icon:hover {
+    width: 200px;
+    height: auto;
+    background-color: black;
+}
+
+.kaiman-icon:hover {
+    width: 200px;
+    height: auto;
+}
+
+.top-inside a {
+    font-size: 20px;
+}
+
+.about-inside {
+    margin: 0.8rem;
+    font-style: italic;
+    font-weight: 400;
 }
