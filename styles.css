@@ -1,0 +1,70 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.top-inside {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Chakra Petch" sans-serif;
+    font-weight: bold;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif; /*fonte utilizada*/
+    background-color: #DDDDDD; /*cor do fundo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.home {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 3rem;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.character-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center; /*alinha os nomes para o centro da img*/
+}
+
